@@ -139,6 +139,27 @@ main {
   line-height: 23px;
 }
 
+.container .profile-data .info div.follow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(22, 107, 3, 0.237);
+  width: 300px;
+  margin: 20px auto -50px auto;
+  border-radius: 20px;
+}
+
+.container .profile-data .info div.follow hr{
+  width: 1px;
+  height: 40px;
+  border-color: rgba(22, 107, 3, 0.237);
+}
+.follow i, .follow ul{
+  margin: 0 20px;
+}
+
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
